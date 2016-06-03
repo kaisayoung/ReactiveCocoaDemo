@@ -24,8 +24,6 @@
 		23126DF31CF5944A00F731AE /* LoginResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23126DF11CF5944A00F731AE /* LoginResultViewController.m */; };
 		23126DF41CF5944A00F731AE /* LoginResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23126DF21CF5944A00F731AE /* LoginResultViewController.xib */; };
 		23126DFD1CF5B03E00F731AE /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23126DFC1CF5B03E00F731AE /* LoginViewModel.m */; };
-		9260E09044CE447996549F1F /* libPods-ReactiveCocoaDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9976C667E5967BE0362CFDC /* libPods-ReactiveCocoaDemo.a */; };
-		DC850B66240CEFFA8E6A6C0F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D86F4D7F65CD6192D5214DF /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,8 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC850B66240CEFFA8E6A6C0F /* libPods.a in Frameworks */,
-				9260E09044CE447996549F1F /* libPods-ReactiveCocoaDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
