@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 /**
- *  step 3: 应用MVVM+RAC做一个登录页面
+ *  step 4: 应用MVVM+RAC做一个登录页面
  */
 
 @interface MVVMRACLoginViewController : UIViewController

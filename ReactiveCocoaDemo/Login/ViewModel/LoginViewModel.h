@@ -14,12 +14,11 @@
 
 @interface LoginViewModel : NSObject
 
-// 触发API
-- (void)loginWithUsername:(NSString *)username password:(NSString *)password complete:(void (^)(BOOL))loginResult;
-
 // 逻辑判断
 - (BOOL)isValidUsername:(NSString *)username;
 - (BOOL)isValidPassword:(NSString *)password;
- 
+
+// 触发API
+- (void)loginWithUsername:(NSString *)username password:(NSString *)password complete:(void (^)(BOOL))loginResult;
 
 @end

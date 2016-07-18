@@ -10,6 +10,15 @@
 
 @implementation LoginViewModel
 
+- (BOOL)isValidUsername:(NSString *)username {
+    return username.length > 6;
+}
+
+- (BOOL)isValidPassword:(NSString *)password {
+    return password.length > 6;
+}
+
+// 这也可以再分离
 - (void)loginWithUsername:(NSString *)username password:(NSString *)password complete:(void (^)(BOOL))loginResult {
     double delayInSeconds = 1.0;
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
@@ -17,14 +26,6 @@
         BOOL success = [username isEqualToString:@"username"] && [password isEqualToString:@"password"];
         loginResult(success);
     });
-}
-
-- (BOOL)isValidUsername:(NSString *)username {
-    return username.length > 6;
-}
-
-- (BOOL)isValidPassword:(NSString *)password {
-    return password.length > 6;
 }
 
 @end
