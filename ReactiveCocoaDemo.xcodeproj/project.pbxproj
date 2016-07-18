@@ -13,17 +13,18 @@
 		23126DBC1CF4092E00F731AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23126DBA1CF4092E00F731AE /* Main.storyboard */; };
 		23126DBE1CF4092E00F731AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23126DBD1CF4092E00F731AE /* Assets.xcassets */; };
 		23126DC11CF4092E00F731AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23126DBF1CF4092E00F731AE /* LaunchScreen.storyboard */; };
-		23126DDF1CF5936E00F731AE /* MVCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23126DDD1CF5936E00F731AE /* MVCLoginViewController.m */; };
-		23126DE01CF5936E00F731AE /* MVCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23126DDE1CF5936E00F731AE /* MVCLoginViewController.xib */; };
-		23126DE41CF5937F00F731AE /* MVVMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23126DE21CF5937F00F731AE /* MVVMLoginViewController.m */; };
-		23126DE51CF5937F00F731AE /* MVVMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23126DE31CF5937F00F731AE /* MVVMLoginViewController.xib */; };
-		23126DE91CF5938C00F731AE /* RACLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23126DE71CF5938C00F731AE /* RACLoginViewController.m */; };
-		23126DEA1CF5938C00F731AE /* RACLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23126DE81CF5938C00F731AE /* RACLoginViewController.xib */; };
-		23126DEE1CF5939B00F731AE /* MVVMRACLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23126DEC1CF5939B00F731AE /* MVVMRACLoginViewController.m */; };
-		23126DEF1CF5939B00F731AE /* MVVMRACLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23126DED1CF5939B00F731AE /* MVVMRACLoginViewController.xib */; };
-		23126DF31CF5944A00F731AE /* LoginResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23126DF11CF5944A00F731AE /* LoginResultViewController.m */; };
-		23126DF41CF5944A00F731AE /* LoginResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23126DF21CF5944A00F731AE /* LoginResultViewController.xib */; };
-		23126DFD1CF5B03E00F731AE /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23126DFC1CF5B03E00F731AE /* LoginViewModel.m */; };
+		23FFC83D1D3C800300C114A7 /* LoginResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FFC8281D3C800300C114A7 /* LoginResultViewController.m */; };
+		23FFC83E1D3C800300C114A7 /* LoginResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23FFC8291D3C800300C114A7 /* LoginResultViewController.xib */; };
+		23FFC83F1D3C800300C114A7 /* MVCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FFC82B1D3C800300C114A7 /* MVCLoginViewController.m */; };
+		23FFC8401D3C800300C114A7 /* MVCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23FFC82C1D3C800300C114A7 /* MVCLoginViewController.xib */; };
+		23FFC8411D3C800300C114A7 /* MVVMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FFC82E1D3C800300C114A7 /* MVVMLoginViewController.m */; };
+		23FFC8421D3C800300C114A7 /* MVVMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23FFC82F1D3C800300C114A7 /* MVVMLoginViewController.xib */; };
+		23FFC8431D3C800300C114A7 /* MVVMRACLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FFC8311D3C800300C114A7 /* MVVMRACLoginViewController.m */; };
+		23FFC8441D3C800300C114A7 /* MVVMRACLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23FFC8321D3C800300C114A7 /* MVVMRACLoginViewController.xib */; };
+		23FFC8451D3C800300C114A7 /* RACLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FFC8341D3C800300C114A7 /* RACLoginViewController.m */; };
+		23FFC8461D3C800300C114A7 /* RACLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23FFC8351D3C800300C114A7 /* RACLoginViewController.xib */; };
+		23FFC8471D3C800300C114A7 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FFC83A1D3C800300C114A7 /* LoginViewModel.m */; };
+		23FFC8481D3C800300C114A7 /* RACLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FFC83C1D3C800300C114A7 /* RACLoginViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,23 +38,25 @@
 		23126DBD1CF4092E00F731AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23126DC01CF4092E00F731AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23126DC21CF4092E00F731AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23126DDC1CF5936E00F731AE /* MVCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCLoginViewController.h; sourceTree = "<group>"; };
-		23126DDD1CF5936E00F731AE /* MVCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCLoginViewController.m; sourceTree = "<group>"; };
-		23126DDE1CF5936E00F731AE /* MVCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVCLoginViewController.xib; sourceTree = "<group>"; };
-		23126DE11CF5937F00F731AE /* MVVMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMLoginViewController.h; sourceTree = "<group>"; };
-		23126DE21CF5937F00F731AE /* MVVMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMLoginViewController.m; sourceTree = "<group>"; };
-		23126DE31CF5937F00F731AE /* MVVMLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVVMLoginViewController.xib; sourceTree = "<group>"; };
-		23126DE61CF5938C00F731AE /* RACLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACLoginViewController.h; sourceTree = "<group>"; };
-		23126DE71CF5938C00F731AE /* RACLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACLoginViewController.m; sourceTree = "<group>"; };
-		23126DE81CF5938C00F731AE /* RACLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RACLoginViewController.xib; sourceTree = "<group>"; };
-		23126DEB1CF5939B00F731AE /* MVVMRACLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMRACLoginViewController.h; sourceTree = "<group>"; };
-		23126DEC1CF5939B00F731AE /* MVVMRACLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMRACLoginViewController.m; sourceTree = "<group>"; };
-		23126DED1CF5939B00F731AE /* MVVMRACLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVVMRACLoginViewController.xib; sourceTree = "<group>"; };
-		23126DF01CF5944A00F731AE /* LoginResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginResultViewController.h; sourceTree = "<group>"; };
-		23126DF11CF5944A00F731AE /* LoginResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginResultViewController.m; sourceTree = "<group>"; };
-		23126DF21CF5944A00F731AE /* LoginResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginResultViewController.xib; sourceTree = "<group>"; };
-		23126DFB1CF5B03E00F731AE /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
-		23126DFC1CF5B03E00F731AE /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		23FFC8271D3C800300C114A7 /* LoginResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginResultViewController.h; sourceTree = "<group>"; };
+		23FFC8281D3C800300C114A7 /* LoginResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginResultViewController.m; sourceTree = "<group>"; };
+		23FFC8291D3C800300C114A7 /* LoginResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginResultViewController.xib; sourceTree = "<group>"; };
+		23FFC82A1D3C800300C114A7 /* MVCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCLoginViewController.h; sourceTree = "<group>"; };
+		23FFC82B1D3C800300C114A7 /* MVCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCLoginViewController.m; sourceTree = "<group>"; };
+		23FFC82C1D3C800300C114A7 /* MVCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVCLoginViewController.xib; sourceTree = "<group>"; };
+		23FFC82D1D3C800300C114A7 /* MVVMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMLoginViewController.h; sourceTree = "<group>"; };
+		23FFC82E1D3C800300C114A7 /* MVVMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMLoginViewController.m; sourceTree = "<group>"; };
+		23FFC82F1D3C800300C114A7 /* MVVMLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVVMLoginViewController.xib; sourceTree = "<group>"; };
+		23FFC8301D3C800300C114A7 /* MVVMRACLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMRACLoginViewController.h; sourceTree = "<group>"; };
+		23FFC8311D3C800300C114A7 /* MVVMRACLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMRACLoginViewController.m; sourceTree = "<group>"; };
+		23FFC8321D3C800300C114A7 /* MVVMRACLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVVMRACLoginViewController.xib; sourceTree = "<group>"; };
+		23FFC8331D3C800300C114A7 /* RACLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACLoginViewController.h; sourceTree = "<group>"; };
+		23FFC8341D3C800300C114A7 /* RACLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACLoginViewController.m; sourceTree = "<group>"; };
+		23FFC8351D3C800300C114A7 /* RACLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RACLoginViewController.xib; sourceTree = "<group>"; };
+		23FFC8391D3C800300C114A7 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		23FFC83A1D3C800300C114A7 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		23FFC83B1D3C800300C114A7 /* RACLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACLoginViewModel.h; sourceTree = "<group>"; };
+		23FFC83C1D3C800300C114A7 /* RACLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACLoginViewModel.m; sourceTree = "<group>"; };
 		2D86F4D7F65CD6192D5214DF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C89EC7B8159DC4B402A728 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6F0E044EF8E2C3424BDF2F68 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,27 +101,11 @@
 				23126DB51CF4092E00F731AE /* AppDelegate.m */,
 				23126DB71CF4092E00F731AE /* ViewController.h */,
 				23126DB81CF4092E00F731AE /* ViewController.m */,
-				23126DDC1CF5936E00F731AE /* MVCLoginViewController.h */,
-				23126DDD1CF5936E00F731AE /* MVCLoginViewController.m */,
-				23126DDE1CF5936E00F731AE /* MVCLoginViewController.xib */,
-				23126DE11CF5937F00F731AE /* MVVMLoginViewController.h */,
-				23126DE21CF5937F00F731AE /* MVVMLoginViewController.m */,
-				23126DE31CF5937F00F731AE /* MVVMLoginViewController.xib */,
-				23126DE61CF5938C00F731AE /* RACLoginViewController.h */,
-				23126DE71CF5938C00F731AE /* RACLoginViewController.m */,
-				23126DE81CF5938C00F731AE /* RACLoginViewController.xib */,
-				23126DEB1CF5939B00F731AE /* MVVMRACLoginViewController.h */,
-				23126DEC1CF5939B00F731AE /* MVVMRACLoginViewController.m */,
-				23126DED1CF5939B00F731AE /* MVVMRACLoginViewController.xib */,
-				23126DFB1CF5B03E00F731AE /* LoginViewModel.h */,
-				23126DFC1CF5B03E00F731AE /* LoginViewModel.m */,
-				23126DF01CF5944A00F731AE /* LoginResultViewController.h */,
-				23126DF11CF5944A00F731AE /* LoginResultViewController.m */,
-				23126DF21CF5944A00F731AE /* LoginResultViewController.xib */,
 				23126DBA1CF4092E00F731AE /* Main.storyboard */,
 				23126DBD1CF4092E00F731AE /* Assets.xcassets */,
 				23126DBF1CF4092E00F731AE /* LaunchScreen.storyboard */,
 				23126DC21CF4092E00F731AE /* Info.plist */,
+				23FFC8251D3C800300C114A7 /* Login */,
 				23126DB11CF4092E00F731AE /* Supporting Files */,
 			);
 			path = ReactiveCocoaDemo;
@@ -130,6 +117,64 @@
 				23126DB21CF4092E00F731AE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23FFC8251D3C800300C114A7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				23FFC8261D3C800300C114A7 /* Controller */,
+				23FFC8371D3C800300C114A7 /* View */,
+				23FFC8381D3C800300C114A7 /* ViewModel */,
+				23FFC8361D3C800300C114A7 /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		23FFC8261D3C800300C114A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				23FFC82A1D3C800300C114A7 /* MVCLoginViewController.h */,
+				23FFC82B1D3C800300C114A7 /* MVCLoginViewController.m */,
+				23FFC82C1D3C800300C114A7 /* MVCLoginViewController.xib */,
+				23FFC82D1D3C800300C114A7 /* MVVMLoginViewController.h */,
+				23FFC82E1D3C800300C114A7 /* MVVMLoginViewController.m */,
+				23FFC82F1D3C800300C114A7 /* MVVMLoginViewController.xib */,
+				23FFC8331D3C800300C114A7 /* RACLoginViewController.h */,
+				23FFC8341D3C800300C114A7 /* RACLoginViewController.m */,
+				23FFC8351D3C800300C114A7 /* RACLoginViewController.xib */,
+				23FFC8301D3C800300C114A7 /* MVVMRACLoginViewController.h */,
+				23FFC8311D3C800300C114A7 /* MVVMRACLoginViewController.m */,
+				23FFC8321D3C800300C114A7 /* MVVMRACLoginViewController.xib */,
+				23FFC8271D3C800300C114A7 /* LoginResultViewController.h */,
+				23FFC8281D3C800300C114A7 /* LoginResultViewController.m */,
+				23FFC8291D3C800300C114A7 /* LoginResultViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		23FFC8361D3C800300C114A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23FFC8371D3C800300C114A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23FFC8381D3C800300C114A7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				23FFC8391D3C800300C114A7 /* LoginViewModel.h */,
+				23FFC83A1D3C800300C114A7 /* LoginViewModel.m */,
+				23FFC83B1D3C800300C114A7 /* RACLoginViewModel.h */,
+				23FFC83C1D3C800300C114A7 /* RACLoginViewModel.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		A9669B4843C51BFC83B77E2A /* Pods */ = {
@@ -212,14 +257,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23126DE51CF5937F00F731AE /* MVVMLoginViewController.xib in Resources */,
-				23126DEA1CF5938C00F731AE /* RACLoginViewController.xib in Resources */,
-				23126DEF1CF5939B00F731AE /* MVVMRACLoginViewController.xib in Resources */,
-				23126DE01CF5936E00F731AE /* MVCLoginViewController.xib in Resources */,
+				23FFC8421D3C800300C114A7 /* MVVMLoginViewController.xib in Resources */,
+				23FFC8461D3C800300C114A7 /* RACLoginViewController.xib in Resources */,
 				23126DC11CF4092E00F731AE /* LaunchScreen.storyboard in Resources */,
-				23126DF41CF5944A00F731AE /* LoginResultViewController.xib in Resources */,
+				23FFC83E1D3C800300C114A7 /* LoginResultViewController.xib in Resources */,
+				23FFC8401D3C800300C114A7 /* MVCLoginViewController.xib in Resources */,
 				23126DBE1CF4092E00F731AE /* Assets.xcassets in Resources */,
 				23126DBC1CF4092E00F731AE /* Main.storyboard in Resources */,
+				23FFC8441D3C800300C114A7 /* MVVMRACLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,15 +323,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23126DDF1CF5936E00F731AE /* MVCLoginViewController.m in Sources */,
-				23126DFD1CF5B03E00F731AE /* LoginViewModel.m in Sources */,
-				23126DE41CF5937F00F731AE /* MVVMLoginViewController.m in Sources */,
-				23126DEE1CF5939B00F731AE /* MVVMRACLoginViewController.m in Sources */,
+				23FFC8431D3C800300C114A7 /* MVVMRACLoginViewController.m in Sources */,
+				23FFC8451D3C800300C114A7 /* RACLoginViewController.m in Sources */,
 				23126DB91CF4092E00F731AE /* ViewController.m in Sources */,
-				23126DE91CF5938C00F731AE /* RACLoginViewController.m in Sources */,
-				23126DF31CF5944A00F731AE /* LoginResultViewController.m in Sources */,
+				23FFC83D1D3C800300C114A7 /* LoginResultViewController.m in Sources */,
+				23FFC8411D3C800300C114A7 /* MVVMLoginViewController.m in Sources */,
 				23126DB61CF4092E00F731AE /* AppDelegate.m in Sources */,
 				23126DB31CF4092E00F731AE /* main.m in Sources */,
+				23FFC83F1D3C800300C114A7 /* MVCLoginViewController.m in Sources */,
+				23FFC8471D3C800300C114A7 /* LoginViewModel.m in Sources */,
+				23FFC8481D3C800300C114A7 /* RACLoginViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
