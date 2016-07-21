@@ -7,7 +7,7 @@
 //
 
 #import "MVVMLoginViewController.h"
-#import "LoginResultViewController.h"
+#import "RACSearchViewController.h"
 #import "LoginViewModel.h"
 
 @interface MVVMLoginViewController ()
@@ -27,6 +27,10 @@
 @end
 
 @implementation MVVMLoginViewController
+
++ (instancetype)viewController {
+    return [[MVVMLoginViewController alloc] initWithNibName:@"MVVMLoginViewController" bundle:nil];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -66,7 +70,7 @@
 
 // 登录成功这里只是单纯的界面跳转，若是逻辑修改，也应尽可能的放到ViewModel中
 - (void)goToLoginSuccessVC {
-    LoginResultViewController *loginSuccessVC = [[LoginResultViewController alloc] initWithNibName:@"LoginResultViewController" bundle:nil];
+    RACSearchViewController *loginSuccessVC = [RACSearchViewController viewController];
     [self.navigationController pushViewController:loginSuccessVC animated:YES];
 }
 

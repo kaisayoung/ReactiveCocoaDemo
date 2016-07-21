@@ -35,25 +35,25 @@
     switch (type) {
         case 1:
         {
-            MVCLoginViewController *loginViewController = [[MVCLoginViewController alloc] initWithNibName:@"MVCLoginViewController" bundle:nil];
+            MVCLoginViewController *loginViewController = [MVCLoginViewController viewController];
             [self.navigationController pushViewController:loginViewController animated:YES];
         }
             break;
         case 2:
         {
-            MVVMLoginViewController *loginViewController = [[MVVMLoginViewController alloc] initWithNibName:@"MVVMLoginViewController" bundle:nil];
+            MVVMLoginViewController *loginViewController = [MVVMLoginViewController viewController];
             [self.navigationController pushViewController:loginViewController animated:YES];
         }
             break;
         case 3:
         {
-            RACLoginViewController *loginViewController = [[RACLoginViewController alloc] initWithNibName:@"RACLoginViewController" bundle:nil];
+            RACLoginViewController *loginViewController = [RACLoginViewController viewController];
             [self.navigationController pushViewController:loginViewController animated:YES];
         }
             break;
         case 4:
         {
-            MVVMRACLoginViewController *loginViewController = [[MVVMRACLoginViewController alloc] initWithNibName:@"MVVMRACLoginViewController" bundle:nil];
+            MVVMRACLoginViewController *loginViewController = [MVVMRACLoginViewController viewController];
             [self.navigationController pushViewController:loginViewController animated:YES];
         }
             break;

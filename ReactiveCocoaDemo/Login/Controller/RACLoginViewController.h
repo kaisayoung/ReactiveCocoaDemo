@@ -14,4 +14,6 @@
 
 @interface RACLoginViewController : UIViewController
 
++ (instancetype)viewController;
+
 @end

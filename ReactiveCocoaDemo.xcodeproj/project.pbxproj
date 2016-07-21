@@ -13,8 +13,19 @@
 		23126DBC1CF4092E00F731AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23126DBA1CF4092E00F731AE /* Main.storyboard */; };
 		23126DBE1CF4092E00F731AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23126DBD1CF4092E00F731AE /* Assets.xcassets */; };
 		23126DC11CF4092E00F731AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23126DBF1CF4092E00F731AE /* LaunchScreen.storyboard */; };
-		23FFC83D1D3C800300C114A7 /* LoginResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FFC8281D3C800300C114A7 /* LoginResultViewController.m */; };
-		23FFC83E1D3C800300C114A7 /* LoginResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23FFC8291D3C800300C114A7 /* LoginResultViewController.xib */; };
+		2352937F1D3D2788004E6FB3 /* RACSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2352937E1D3D2788004E6FB3 /* RACSearchService.m */; };
+		235293821D3D3584004E6FB3 /* RACBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 235293811D3D3584004E6FB3 /* RACBookModel.m */; };
+		235293851D3D3796004E6FB3 /* RACSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 235293841D3D3796004E6FB3 /* RACSearchResult.m */; };
+		2352938A1D3E77AF004E6FB3 /* RACDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235293881D3E77AF004E6FB3 /* RACDetailViewController.m */; };
+		2352938B1D3E77AF004E6FB3 /* RACDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235293891D3E77AF004E6FB3 /* RACDetailViewController.xib */; };
+		2352938E1D3E7C56004E6FB3 /* RACDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2352938D1D3E7C56004E6FB3 /* RACDetailViewModel.m */; };
+		235293AC1D3FD9E3004E6FB3 /* RACViewModelNavigationImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 235293AA1D3FD9E3004E6FB3 /* RACViewModelNavigationImpl.m */; };
+		23F68CB21D3CBC07005A2F8D /* RACSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F68CB01D3CBC07005A2F8D /* RACSearchViewController.m */; };
+		23F68CB31D3CBC07005A2F8D /* RACSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23F68CB11D3CBC07005A2F8D /* RACSearchViewController.xib */; };
+		23F68CB91D3CBCAF005A2F8D /* RACSearchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F68CB81D3CBCAF005A2F8D /* RACSearchViewModel.m */; };
+		23F68CCA1D3CCA99005A2F8D /* RACTableViewBindingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F68CC91D3CCA99005A2F8D /* RACTableViewBindingHelper.m */; };
+		23F68CCE1D3CCD57005A2F8D /* RACSearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F68CCC1D3CCD57005A2F8D /* RACSearchResultTableViewCell.m */; };
+		23F68CCF1D3CCD57005A2F8D /* RACSearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23F68CCD1D3CCD57005A2F8D /* RACSearchResultTableViewCell.xib */; };
 		23FFC83F1D3C800300C114A7 /* MVCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FFC82B1D3C800300C114A7 /* MVCLoginViewController.m */; };
 		23FFC8401D3C800300C114A7 /* MVCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23FFC82C1D3C800300C114A7 /* MVCLoginViewController.xib */; };
 		23FFC8411D3C800300C114A7 /* MVVMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FFC82E1D3C800300C114A7 /* MVVMLoginViewController.m */; };
@@ -25,6 +36,7 @@
 		23FFC8461D3C800300C114A7 /* RACLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23FFC8351D3C800300C114A7 /* RACLoginViewController.xib */; };
 		23FFC8471D3C800300C114A7 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FFC83A1D3C800300C114A7 /* LoginViewModel.m */; };
 		23FFC8481D3C800300C114A7 /* RACLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FFC83C1D3C800300C114A7 /* RACLoginViewModel.m */; };
+		266A8E197AC3C143D6E149CF /* libPods-ReactiveCocoaDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9976C667E5967BE0362CFDC /* libPods-ReactiveCocoaDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,9 +50,31 @@
 		23126DBD1CF4092E00F731AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23126DC01CF4092E00F731AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23126DC21CF4092E00F731AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23FFC8271D3C800300C114A7 /* LoginResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginResultViewController.h; sourceTree = "<group>"; };
-		23FFC8281D3C800300C114A7 /* LoginResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginResultViewController.m; sourceTree = "<group>"; };
-		23FFC8291D3C800300C114A7 /* LoginResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginResultViewController.xib; sourceTree = "<group>"; };
+		2352937D1D3D2788004E6FB3 /* RACSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSearchService.h; sourceTree = "<group>"; };
+		2352937E1D3D2788004E6FB3 /* RACSearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSearchService.m; sourceTree = "<group>"; };
+		235293801D3D3584004E6FB3 /* RACBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBookModel.h; sourceTree = "<group>"; };
+		235293811D3D3584004E6FB3 /* RACBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBookModel.m; sourceTree = "<group>"; };
+		235293831D3D3796004E6FB3 /* RACSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSearchResult.h; sourceTree = "<group>"; };
+		235293841D3D3796004E6FB3 /* RACSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSearchResult.m; sourceTree = "<group>"; };
+		235293871D3E77AF004E6FB3 /* RACDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACDetailViewController.h; sourceTree = "<group>"; };
+		235293881D3E77AF004E6FB3 /* RACDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACDetailViewController.m; sourceTree = "<group>"; };
+		235293891D3E77AF004E6FB3 /* RACDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RACDetailViewController.xib; sourceTree = "<group>"; };
+		2352938C1D3E7C56004E6FB3 /* RACDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACDetailViewModel.h; sourceTree = "<group>"; };
+		2352938D1D3E7C56004E6FB3 /* RACDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACDetailViewModel.m; sourceTree = "<group>"; };
+		235293A91D3FD9E3004E6FB3 /* RACViewModelNavigationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACViewModelNavigationImpl.h; sourceTree = "<group>"; };
+		235293AA1D3FD9E3004E6FB3 /* RACViewModelNavigationImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACViewModelNavigationImpl.m; sourceTree = "<group>"; };
+		235293AB1D3FD9E3004E6FB3 /* RACViewModelNavigationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACViewModelNavigationProtocol.h; sourceTree = "<group>"; };
+		23F68CAF1D3CBC07005A2F8D /* RACSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSearchViewController.h; sourceTree = "<group>"; };
+		23F68CB01D3CBC07005A2F8D /* RACSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSearchViewController.m; sourceTree = "<group>"; };
+		23F68CB11D3CBC07005A2F8D /* RACSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RACSearchViewController.xib; sourceTree = "<group>"; };
+		23F68CB71D3CBCAF005A2F8D /* RACSearchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSearchViewModel.h; sourceTree = "<group>"; };
+		23F68CB81D3CBCAF005A2F8D /* RACSearchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSearchViewModel.m; sourceTree = "<group>"; };
+		23F68CC71D3CCA36005A2F8D /* RACBindViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBindViewModelProtocol.h; sourceTree = "<group>"; };
+		23F68CC81D3CCA99005A2F8D /* RACTableViewBindingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACTableViewBindingHelper.h; sourceTree = "<group>"; };
+		23F68CC91D3CCA99005A2F8D /* RACTableViewBindingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACTableViewBindingHelper.m; sourceTree = "<group>"; };
+		23F68CCB1D3CCD57005A2F8D /* RACSearchResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSearchResultTableViewCell.h; sourceTree = "<group>"; };
+		23F68CCC1D3CCD57005A2F8D /* RACSearchResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSearchResultTableViewCell.m; sourceTree = "<group>"; };
+		23F68CCD1D3CCD57005A2F8D /* RACSearchResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RACSearchResultTableViewCell.xib; sourceTree = "<group>"; };
 		23FFC82A1D3C800300C114A7 /* MVCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCLoginViewController.h; sourceTree = "<group>"; };
 		23FFC82B1D3C800300C114A7 /* MVCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCLoginViewController.m; sourceTree = "<group>"; };
 		23FFC82C1D3C800300C114A7 /* MVCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVCLoginViewController.xib; sourceTree = "<group>"; };
@@ -70,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266A8E197AC3C143D6E149CF /* libPods-ReactiveCocoaDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +140,9 @@
 				23126DBD1CF4092E00F731AE /* Assets.xcassets */,
 				23126DBF1CF4092E00F731AE /* LaunchScreen.storyboard */,
 				23126DC21CF4092E00F731AE /* Info.plist */,
+				235293A81D3FD9E3004E6FB3 /* Navigation */,
+				23F68CBA1D3CC1F9005A2F8D /* Detail */,
+				23FFC8491D3C817800C114A7 /* Search */,
 				23FFC8251D3C800300C114A7 /* Login */,
 				23126DB11CF4092E00F731AE /* Supporting Files */,
 			);
@@ -117,6 +155,69 @@
 				23126DB21CF4092E00F731AE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2352937C1D3D2750004E6FB3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2352937D1D3D2788004E6FB3 /* RACSearchService.h */,
+				2352937E1D3D2788004E6FB3 /* RACSearchService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		235293A81D3FD9E3004E6FB3 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				235293AB1D3FD9E3004E6FB3 /* RACViewModelNavigationProtocol.h */,
+				235293A91D3FD9E3004E6FB3 /* RACViewModelNavigationImpl.h */,
+				235293AA1D3FD9E3004E6FB3 /* RACViewModelNavigationImpl.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		23F68CBA1D3CC1F9005A2F8D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				23F68CBB1D3CC1F9005A2F8D /* Controller */,
+				23F68CC01D3CC1F9005A2F8D /* View */,
+				23F68CC11D3CC1F9005A2F8D /* ViewModel */,
+				23F68CBF1D3CC1F9005A2F8D /* Model */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		23F68CBB1D3CC1F9005A2F8D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				235293871D3E77AF004E6FB3 /* RACDetailViewController.h */,
+				235293881D3E77AF004E6FB3 /* RACDetailViewController.m */,
+				235293891D3E77AF004E6FB3 /* RACDetailViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		23F68CBF1D3CC1F9005A2F8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23F68CC01D3CC1F9005A2F8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23F68CC11D3CC1F9005A2F8D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2352938C1D3E7C56004E6FB3 /* RACDetailViewModel.h */,
+				2352938D1D3E7C56004E6FB3 /* RACDetailViewModel.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		23FFC8251D3C800300C114A7 /* Login */ = {
@@ -145,9 +246,6 @@
 				23FFC8301D3C800300C114A7 /* MVVMRACLoginViewController.h */,
 				23FFC8311D3C800300C114A7 /* MVVMRACLoginViewController.m */,
 				23FFC8321D3C800300C114A7 /* MVVMRACLoginViewController.xib */,
-				23FFC8271D3C800300C114A7 /* LoginResultViewController.h */,
-				23FFC8281D3C800300C114A7 /* LoginResultViewController.m */,
-				23FFC8291D3C800300C114A7 /* LoginResultViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,6 +271,77 @@
 				23FFC83A1D3C800300C114A7 /* LoginViewModel.m */,
 				23FFC83B1D3C800300C114A7 /* RACLoginViewModel.h */,
 				23FFC83C1D3C800300C114A7 /* RACLoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		23FFC8491D3C817800C114A7 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2352937C1D3D2750004E6FB3 /* Service */,
+				23FFC84B1D3C817800C114A7 /* Controller */,
+				23FFC84E1D3C817800C114A7 /* View */,
+				23FFC84A1D3C817800C114A7 /* Cell */,
+				23FFC84F1D3C817800C114A7 /* ViewModel */,
+				23FFC84C1D3C817800C114A7 /* Model */,
+				23FFC84D1D3C817800C114A7 /* Other */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		23FFC84A1D3C817800C114A7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				23F68CCB1D3CCD57005A2F8D /* RACSearchResultTableViewCell.h */,
+				23F68CCC1D3CCD57005A2F8D /* RACSearchResultTableViewCell.m */,
+				23F68CCD1D3CCD57005A2F8D /* RACSearchResultTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		23FFC84B1D3C817800C114A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				23F68CAF1D3CBC07005A2F8D /* RACSearchViewController.h */,
+				23F68CB01D3CBC07005A2F8D /* RACSearchViewController.m */,
+				23F68CB11D3CBC07005A2F8D /* RACSearchViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		23FFC84C1D3C817800C114A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				235293801D3D3584004E6FB3 /* RACBookModel.h */,
+				235293811D3D3584004E6FB3 /* RACBookModel.m */,
+				235293831D3D3796004E6FB3 /* RACSearchResult.h */,
+				235293841D3D3796004E6FB3 /* RACSearchResult.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23FFC84D1D3C817800C114A7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				23F68CC71D3CCA36005A2F8D /* RACBindViewModelProtocol.h */,
+				23F68CC81D3CCA99005A2F8D /* RACTableViewBindingHelper.h */,
+				23F68CC91D3CCA99005A2F8D /* RACTableViewBindingHelper.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		23FFC84E1D3C817800C114A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23FFC84F1D3C817800C114A7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				23F68CB71D3CBCAF005A2F8D /* RACSearchViewModel.h */,
+				23F68CB81D3CBCAF005A2F8D /* RACSearchViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -204,12 +373,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23126DC51CF4092E00F731AE /* Build configuration list for PBXNativeTarget "ReactiveCocoaDemo" */;
 			buildPhases = (
-				6D0DA909E348B530124CAB2A /* 📦 Check Pods Manifest.lock */,
+				6D0DA909E348B530124CAB2A /* [CP] Check Pods Manifest.lock */,
 				23126DAA1CF4092E00F731AE /* Sources */,
 				23126DAB1CF4092E00F731AE /* Frameworks */,
 				23126DAC1CF4092E00F731AE /* Resources */,
-				D3449323787675F714E198AD /* 📦 Embed Pods Frameworks */,
-				C75E6F9C46ACA876DF899BF8 /* 📦 Copy Pods Resources */,
+				D3449323787675F714E198AD /* [CP] Embed Pods Frameworks */,
+				C75E6F9C46ACA876DF899BF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,8 +429,10 @@
 				23FFC8421D3C800300C114A7 /* MVVMLoginViewController.xib in Resources */,
 				23FFC8461D3C800300C114A7 /* RACLoginViewController.xib in Resources */,
 				23126DC11CF4092E00F731AE /* LaunchScreen.storyboard in Resources */,
-				23FFC83E1D3C800300C114A7 /* LoginResultViewController.xib in Resources */,
+				2352938B1D3E77AF004E6FB3 /* RACDetailViewController.xib in Resources */,
+				23F68CB31D3CBC07005A2F8D /* RACSearchViewController.xib in Resources */,
 				23FFC8401D3C800300C114A7 /* MVCLoginViewController.xib in Resources */,
+				23F68CCF1D3CCD57005A2F8D /* RACSearchResultTableViewCell.xib in Resources */,
 				23126DBE1CF4092E00F731AE /* Assets.xcassets in Resources */,
 				23126DBC1CF4092E00F731AE /* Main.storyboard in Resources */,
 				23FFC8441D3C800300C114A7 /* MVVMRACLoginViewController.xib in Resources */,
@@ -271,14 +442,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6D0DA909E348B530124CAB2A /* 📦 Check Pods Manifest.lock */ = {
+		6D0DA909E348B530124CAB2A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,14 +457,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C75E6F9C46ACA876DF899BF8 /* 📦 Copy Pods Resources */ = {
+		C75E6F9C46ACA876DF899BF8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +472,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaDemo/Pods-ReactiveCocoaDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D3449323787675F714E198AD /* 📦 Embed Pods Frameworks */ = {
+		D3449323787675F714E198AD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,13 +495,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				23FFC8431D3C800300C114A7 /* MVVMRACLoginViewController.m in Sources */,
+				23F68CCE1D3CCD57005A2F8D /* RACSearchResultTableViewCell.m in Sources */,
 				23FFC8451D3C800300C114A7 /* RACLoginViewController.m in Sources */,
 				23126DB91CF4092E00F731AE /* ViewController.m in Sources */,
-				23FFC83D1D3C800300C114A7 /* LoginResultViewController.m in Sources */,
+				2352937F1D3D2788004E6FB3 /* RACSearchService.m in Sources */,
+				23F68CB21D3CBC07005A2F8D /* RACSearchViewController.m in Sources */,
 				23FFC8411D3C800300C114A7 /* MVVMLoginViewController.m in Sources */,
 				23126DB61CF4092E00F731AE /* AppDelegate.m in Sources */,
+				23F68CCA1D3CCA99005A2F8D /* RACTableViewBindingHelper.m in Sources */,
+				2352938E1D3E7C56004E6FB3 /* RACDetailViewModel.m in Sources */,
+				23F68CB91D3CBCAF005A2F8D /* RACSearchViewModel.m in Sources */,
+				235293821D3D3584004E6FB3 /* RACBookModel.m in Sources */,
+				2352938A1D3E77AF004E6FB3 /* RACDetailViewController.m in Sources */,
 				23126DB31CF4092E00F731AE /* main.m in Sources */,
+				235293851D3D3796004E6FB3 /* RACSearchResult.m in Sources */,
 				23FFC83F1D3C800300C114A7 /* MVCLoginViewController.m in Sources */,
+				235293AC1D3FD9E3004E6FB3 /* RACViewModelNavigationImpl.m in Sources */,
 				23FFC8471D3C800300C114A7 /* LoginViewModel.m in Sources */,
 				23FFC8481D3C800300C114A7 /* RACLoginViewModel.m in Sources */,
 			);

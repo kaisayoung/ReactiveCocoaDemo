@@ -14,4 +14,6 @@
 
 @interface MVVMRACLoginViewController : UIViewController
 
++ (instancetype)viewController;
+
 @end

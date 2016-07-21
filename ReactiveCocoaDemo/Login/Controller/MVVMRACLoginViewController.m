@@ -7,10 +7,10 @@
 //
 
 #import "MVVMRACLoginViewController.h"
-#import "LoginResultViewController.h"
 #import "RACLoginViewModel.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <ReactiveCocoa/RACEXTScope.h>
+#import "RACSearchViewController.h"
 
 @interface MVVMRACLoginViewController ()
 
@@ -25,6 +25,10 @@
 @end
 
 @implementation MVVMRACLoginViewController
+
++ (instancetype)viewController {
+    return [[MVVMRACLoginViewController alloc] initWithNibName:@"MVVMRACLoginViewController" bundle:nil];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -100,7 +104,7 @@
 */
 
 - (void)goToLoginSuccessVC {
-    LoginResultViewController *loginSuccessVC = [[LoginResultViewController alloc] initWithNibName:@"LoginResultViewController" bundle:nil];
+    RACSearchViewController *loginSuccessVC = [RACSearchViewController viewController];
     [self.navigationController pushViewController:loginSuccessVC animated:YES];
 }
 

@@ -11,8 +11,7 @@
 
 @implementation RACLoginViewModel
 
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     if (self) {
         [self initialize];

@@ -7,7 +7,7 @@
 //
 
 #import "MVCLoginViewController.h"
-#import "LoginResultViewController.h"
+#import "RACSearchViewController.h"
 
 @interface MVCLoginViewController ()
 
@@ -23,6 +23,10 @@
 @end
 
 @implementation MVCLoginViewController
+
++ (instancetype)viewController {
+    return [[MVCLoginViewController alloc] initWithNibName:@"MVCLoginViewController" bundle:nil];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -71,7 +75,7 @@
 }
 
 - (void)goToLoginSuccessVC {
-    LoginResultViewController *loginSuccessVC = [[LoginResultViewController alloc] initWithNibName:@"LoginResultViewController" bundle:nil];
+    RACSearchViewController *loginSuccessVC = [RACSearchViewController viewController];
     [self.navigationController pushViewController:loginSuccessVC animated:YES];
 }
 

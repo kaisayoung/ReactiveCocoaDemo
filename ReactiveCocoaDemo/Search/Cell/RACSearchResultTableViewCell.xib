@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="RACSearchResultTableViewCell" rowHeight="153" id="KGk-i7-Jjw" customClass="RACSearchResultTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="102.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BMG-mw-6pw">
+                        <rect key="frame" x="20" y="15" width="51" height="72.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="72.5" id="AWJ-rI-laf"/>
+                            <constraint firstAttribute="width" constant="51" id="kyZ-nj-1ZP"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金融学" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2n-DS-BiM">
+                        <rect key="frame" x="81" y="15" width="42" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="戴维·L.克利顿(David L. Cleeton)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vv1-h0-oWe">
+                        <rect key="frame" x="81" y="43" width="201.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中国人民大学出版社" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQE-Le-QdR">
+                        <rect key="frame" x="81" y="70.5" width="126" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4dT-fR-kJA">
+                        <rect key="frame" x="0.0" y="102" width="375" height="0.5"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="l2O-7c-gGO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="4dT-fR-kJA" secondAttribute="trailing" id="Eh8-Yh-iEj"/>
+                    <constraint firstItem="GQE-Le-QdR" firstAttribute="leading" secondItem="Vv1-h0-oWe" secondAttribute="leading" id="GkV-Yh-DOv"/>
+                    <constraint firstItem="4dT-fR-kJA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="HfY-tR-l2E"/>
+                    <constraint firstAttribute="bottom" secondItem="4dT-fR-kJA" secondAttribute="bottom" id="Hkt-ie-ROq"/>
+                    <constraint firstItem="Y2n-DS-BiM" firstAttribute="top" secondItem="BMG-mw-6pw" secondAttribute="top" id="KpO-SJ-olU"/>
+                    <constraint firstItem="GQE-Le-QdR" firstAttribute="bottom" secondItem="BMG-mw-6pw" secondAttribute="bottom" id="YIp-es-vR6"/>
+                    <constraint firstItem="Vv1-h0-oWe" firstAttribute="leading" secondItem="Y2n-DS-BiM" secondAttribute="leading" id="ZcH-ZH-fzY"/>
+                    <constraint firstItem="BMG-mw-6pw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="cLq-Sh-Xaq"/>
+                    <constraint firstItem="BMG-mw-6pw" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="d8A-5c-nWR"/>
+                    <constraint firstItem="Y2n-DS-BiM" firstAttribute="leading" secondItem="BMG-mw-6pw" secondAttribute="trailing" constant="10" id="iMX-Cf-DVa"/>
+                    <constraint firstItem="Vv1-h0-oWe" firstAttribute="centerY" secondItem="BMG-mw-6pw" secondAttribute="centerY" id="vds-9l-2NM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bookAuthorLabel" destination="Vv1-h0-oWe" id="0ha-n4-4hZ"/>
+                <outlet property="bookImageView" destination="BMG-mw-6pw" id="bas-nz-HAj"/>
+                <outlet property="bookPublisherLabel" destination="GQE-Le-QdR" id="PRF-LX-sJ4"/>
+                <outlet property="bookTitleLabel" destination="Y2n-DS-BiM" id="PUg-f4-G7Z"/>
+            </connections>
+            <point key="canvasLocation" x="292.5" y="386"/>
+        </tableViewCell>
+    </objects>
+</document>

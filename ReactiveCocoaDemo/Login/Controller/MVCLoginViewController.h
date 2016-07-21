@@ -14,4 +14,6 @@
 
 @interface MVCLoginViewController : UIViewController
 
++ (instancetype)viewController;
+
 @end

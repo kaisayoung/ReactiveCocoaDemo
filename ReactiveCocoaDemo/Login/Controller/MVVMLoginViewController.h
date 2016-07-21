@@ -14,4 +14,6 @@
 
 @interface MVVMLoginViewController : UIViewController
 
++ (instancetype)viewController;
+
 @end
